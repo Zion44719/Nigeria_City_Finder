@@ -1,0 +1,174 @@
+/* Base reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom properties/variables  */
+
+:root {
+  --primary-color: #01b4e4;
+  --seconday-color: #0164e4;
+  --secondary-color-200: #0d253f;
+  --tertiary-color: #90cea1;
+  --main-white: #f0f0f0;
+  --main-red: #960c0c;
+  --main-blue: #45567d;
+  --main-gray: #a9c8ec;
+  --main-purple: #930cac;
+  --main-black: #070303;
+  --main-pink: #d418ac;
+  --main-green: #3ed418;
+  --main-yellow: #c1d418;
+}
+
+/* main {
+    background-color: #c3dddd;
+    background-image: url(/images/world_map-removebg-preview.png);
+} */
+
+h1 {
+  font-family: "Domine", serif;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+}
+
+.wrap__1 {
+  padding: 10px;
+}
+
+/* .box {
+  flex-basis: 100%;
+} */
+
+input {
+  width: 100%;
+  padding: 20px;
+}
+
+.search_form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+input.searchBtn {
+  margin: 0;
+  text-align: center;
+  outline: none;
+  width: 120%;
+  position: relative;
+  left: -10px;
+  top: 10px;
+  z-index: 2;
+  border-radius: 4px;
+  font-size: 25px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.suggestionList {
+  margin-top: 15px;
+  height: 550px;
+  overflow: auto;
+}
+
+.suggestionList li {
+  background-color: var(--main-gray);
+  list-style: none;
+  border-bottom: 1px solid var(--main-blue);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  margin: 0;
+  padding: 20px;
+}
+
+.highlight {
+  background-color: var(--main-purple);
+  color: var(--main-white);
+}
+
+.text-center {
+  display: flex;
+  text-align: center;
+  text-indent: 0.3em;
+}
+
+/* footer styling */
+
+.footer-logo2 {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  background-color: #928f8f;
+  margin-top: 10px;
+}
+
+.footer-box2 {
+  flex-basis: 100%;
+  gap: 5px;
+}
+
+.footer .footer-box a:hover {
+  cursor: pointer;
+}
+
+.copyrht {
+  font-style: italic;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .containerr {
+    display: flex;
+    padding: 15px;
+    background-color: #222;
+  }
+
+  .nav-band ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+
+  .wrapper {
+    display: block;
+    border: 2px solid green;
+    padding: 5px;
+  }
+
+  .wrap__1 {
+    padding: 5px;
+  }
+
+  input.searchBtn {
+    margin: 0;
+    text-align: center;
+    outline: none;
+    position: relative;
+    left: -10px;
+    top: 10px;
+    z-index: 2;
+    border-radius: 4px;
+    font-size: 25px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer {
+    display: block;
+  }
+}
