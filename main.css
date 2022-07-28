@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 /* Custom properties/variables  */
@@ -97,6 +98,11 @@ input.searchBtn {
 .highlight {
   background-color: var(--main-purple);
   color: var(--main-white);
+}
+
+.displayField {
+  font-size: 1.5rem;
+  background-color: var(--main-gray);
 }
 
 .text-center {
