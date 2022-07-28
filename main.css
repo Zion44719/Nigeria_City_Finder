@@ -151,6 +151,7 @@ input.searchBtn {
     display: block;
     border: 2px solid green;
     padding: 5px;
+    text-align: center;
   }
 
   .wrap__1 {
