@@ -11,6 +11,8 @@ searchInput.addEventListener("keyup", displayMatches);
 // get API
 const citiesStates = [];
 
+// api "https://gist.githubusercontent.com/Zion44719/3cab67fd551c3ac80e88826cf3d1d933/raw/d8a4656ef4edffe913d7623bce3c234fdfb00805/Cities_database.json"
+
 async function fetchAPi() {
   const res = await fetch(
     "https://gist.githubusercontent.com/Zion44719/3cab67fd551c3ac80e88826cf3d1d933/raw/d8a4656ef4edffe913d7623bce3c234fdfb00805/Cities_database.json"
