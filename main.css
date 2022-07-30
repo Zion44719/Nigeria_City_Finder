@@ -72,7 +72,6 @@ input.searchBtn {
   outline: none;
   /* width: 120%; */
   position: relative;
-  left: -10px;
   top: 10px;
   z-index: 2;
   border-radius: 4px;
@@ -169,7 +168,6 @@ input.searchBtn {
     text-align: center;
     outline: none;
     position: relative;
-    left: -10px;
     top: 10px;
     /* width: 50%; */
     z-index: 2;
