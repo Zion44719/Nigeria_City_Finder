@@ -153,6 +153,7 @@ input.searchBtn {
     font-size: 1.5rem;
     background-color: var(--main-gray);
     text-align: center;
+    width: 100%;
   }
 
   .nav-band ul li a {
