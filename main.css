@@ -103,6 +103,9 @@ input.searchBtn {
 .displayField {
   font-size: 1.5rem;
   background-color: var(--main-gray);
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .text-center {
