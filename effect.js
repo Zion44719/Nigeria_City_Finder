@@ -29,25 +29,28 @@ function findMatches(wordToMatch, citiesStates) {
 }
 
 // Display Matches Function
+// function displayMatches() {
+//   const findArray = findMatches(this.value, citiesStates);
+
+//   const matchEl = findArray.map((place) => {
+//     const regX = new RegExp(this.value, "gi");
+//     const cityName = place.city.replace(
+//       regX,
+//       `<span class="highlight">${this.value}</span>`
+//     );
+
+//     const stateName = place.admin_name.replace(
+//       regX,
+//       `<span class="highlight">${this.value}</span>`
+//     );
+//     return `<li class="name" onclick="displayCityInfo(this)" id="${place.city}">${cityName}, ${stateName}</li>`;
+//   });
+//   // .join("");
+//   suggestionCon.innerHTML = matchEl;
+// }
+
 function displayMatches() {
-  const findArray = findMatches(this.value, citiesStates);
-
-  const matchEl = findArray
-    .map((place) => {
-      const regX = new RegExp(this.value, "gi");
-      const cityName = place.city.replace(
-        regX,
-        `<span class="highlight">${this.value}</span>`
-      );
-
-      const stateName = place.admin_name.replace(
-        regX,
-        `<span class="highlight">${this.value}</span>`
-      );
-      return `<li class="name" onclick="displayCityInfo(this)" id="${place.city}">${cityName}, ${stateName}</li>`;
-    })
-    .join("");
-  suggestionCon.innerHTML = matchEl;
+  citiesStates.forEach((place) => {});
 }
 
 // Display The Selected State or City
